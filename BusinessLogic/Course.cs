@@ -31,7 +31,7 @@ namespace BusinessLogic
             {
                 if (value == null)
                 {
-                    throw new ArgumentException("Must have a course name.");
+                    throw new ArgumentNullException("Must have a course name.");
                 }
 
                 courseName = value;
